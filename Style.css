@@ -1,0 +1,49 @@
+
+:root{
+    --dark-one: red;
+    --background-color: black;
+}
+*, *::before, *::after{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    position: relative;
+    z-index: 5;
+    max-width: 92rem;
+    margin: 0 auto;
+    padding: 0 4rem;
+    background-color: black;
+    font-size: 12px;
+}
+body, button, input, textarea{
+    font-family: "Press Start 2P", cursive;
+}
+a{
+    text-decoration: none;
+}
+ul{
+    list-style: none;
+}
+img{
+    width: 100%;
+}
+
+header{
+    width: 100%;
+    background-color: var(--background-color);
+    overflow: hidden;
+}
+nav{
+    width: 100%;
+    poistion: relative;
+    z-index: 50;
+}
+nav .container{
+    display: flex;
+    justify-content: space-between;
+}
+.links ul{
+    display: flex;
+}
